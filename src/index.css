@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+}
+@font-face {
+  font-family: "RedHatText";
+  src: url("/public/fonts/RedHatText-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "RedHatText", sans-serif;
+}
+.show {
+  display: block;
+}
